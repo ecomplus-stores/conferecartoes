@@ -3,25 +3,6 @@
   "meta_description": "",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
-        },
-        {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": ""
-        }
-      ]
-    },
-    {
       "type": "info-bar",
       "enabled": true
     },
@@ -36,6 +17,43 @@
       "type": "page-title",
       "title": "Loja demo da E-Com Plus",
       "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2021-05-19T14:04:26.802Z",
+      "end": "2021-05-19T14:04:26.839Z",
+      "offers": [
+        "6064a91e3c48b468b9ada4be",
+        "606f0eb633554a7d2d3f01a2",
+        "6064a7693c48b468b9ada2bb",
+        "605a632f4b948446086937ae",
+        "609d70b4ae1d0d68003d4c14"
+      ],
+      "notes": "lkmkmkkmk"
+    },
+    {
+      "type": "custom-content",
+      "markdown": "kwoklasldlkasldkkdlqwkldqklkl"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": "name",
+      "autoplay": 3000
+    },
+    {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
+      "type": "blog",
+      "enabled": true
+    },
+    {
+      "type": "custom-html",
+      "html": "<script>\n  alert('teste');\n</script>"
     }
   ]
 }
