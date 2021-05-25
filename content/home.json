@@ -54,6 +54,10 @@
     {
       "type": "custom-html",
       "html": "<script>\n  alert('teste');\n</script>"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/picture1.jpg"
     }
   ]
 }
