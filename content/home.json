@@ -54,6 +54,10 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/picture1.jpg"
+    },
+    {
+      "type": "custom-html",
+      "html": "<hr>"
     }
   ]
 }
