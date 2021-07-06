@@ -1,0 +1,80 @@
+2021-04-18T17:00:52.032Z [INFO]: Git SSH Key acquired
+2021-04-18T17:00:52.117Z [INFO]: # Cloning repository: git@github.com:confere/confere-web.git
+2021-04-18T17:00:52.126Z [INFO]: Agent pid 131
+2021-04-18T17:00:52.152Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+2021-04-18T17:00:52.422Z [INFO]: Cloning into 'confere-web'...
+2021-04-18T17:00:52.608Z [INFO]: Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
+2021-04-18T17:00:54.656Z [INFO]: # Switching to commit: 9fbad5a95369acd7063d98a838058bf7159f101d
+2021-04-18T17:00:54.664Z [INFO]: Agent pid 144
+2021-04-18T17:00:54.668Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+2021-04-18T17:00:54.842Z [INFO]: Note: switching to '9fbad5a95369acd7063d98a838058bf7159f101d'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+                                 HEAD is now at 9fbad5a9 fix: adding load when sending request
+2021-04-18T17:00:54.848Z [INFO]: Successfully cleaned up Git credentials
+2021-04-18T17:00:54.849Z [INFO]: # Checking for Git submodules at: /codebuild/output/src725577982/src/confere-web/.gitmodules
+2021-04-18T17:00:54.870Z [INFO]: # Retrieving cache...
+2021-04-18T17:01:46.485Z [INFO]: # Extracting cache...
+2021-04-18T17:03:10.226Z [INFO]: # Extraction completed
+2021-04-18T17:03:10.704Z [INFO]: # Retrieving environment cache...
+2021-04-18T17:03:10.744Z [INFO]: # Retrieved environment cache
+2021-04-18T17:03:23.399Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: echo "//npm.pkg.github.com/:_authToken=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" > .npmrc
+2021-04-18T17:03:23.401Z [INFO]: # Executing command: echo "registry=https://npm.pkg.github.com/confere" >> .npmrc
+                                 # Executing command: npm ci --production
+2021-04-18T17:03:24.458Z [WARNING]: npm
+2021-04-18T17:03:24.459Z [WARNING]: WARN prepare removing existing node_modules/ before installation
+2021-04-18T17:03:48.587Z [INFO]: > core-js@2.6.11 postinstall /codebuild/output/src725577982/src/confere-web/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-04-18T17:03:48.637Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://www.patreon.com/zloirock [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2021-04-18T17:03:48.855Z [INFO]: > fsevents@1.2.11 install /codebuild/output/src725577982/src/confere-web/node_modules/fsevents
+                                 > node-gyp rebuild
+2021-04-18T17:03:50.962Z [INFO]: make: Entering directory `/codebuild/output/src725577982/src/confere-web/node_modules/fsevents/build'
+2021-04-18T17:03:50.963Z [INFO]: SOLINK_MODULE(target) Release/obj.target/.node
+2021-04-18T17:03:51.729Z [INFO]: COPY Release/.node
+2021-04-18T17:03:51.738Z [INFO]: make: Leaving directory `/codebuild/output/src725577982/src/confere-web/node_modules/fsevents/build'
+2021-04-18T17:03:51.859Z [INFO]: > utf-8-validate@5.0.4 install /codebuild/output/src725577982/src/confere-web/node_modules/utf-8-validate
+                                 > node-gyp-build
+2021-04-18T17:03:51.971Z [INFO]: > styled-components@4.4.1 postinstall /codebuild/output/src725577982/src/confere-web/node_modules/styled-components
+                                 > node ./scripts/postinstall.js || exit 0
+2021-04-18T17:03:52.015Z [INFO]: Use styled-components at work? Consider supporting our development efforts at https://opencollective.com/styled-components
+2021-04-18T17:03:52.136Z [INFO]: > core-js@3.6.4 postinstall /codebuild/output/src725577982/src/confere-web/node_modules/react-app-polyfill/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-04-18T17:03:52.420Z [INFO]: > node-sass@4.14.1 install /codebuild/output/src725577982/src/confere-web/node_modules/node-sass
+                                 > node scripts/install.js
+2021-04-18T17:03:53.273Z [INFO]: Downloading binary from https://github.com/sass/node-sass/releases/download/v4.14.1/linux-x64-72_binding.node
+2021-04-18T17:03:53.352Z [INFO]: Download complete
+2021-04-18T17:03:53.356Z [INFO]: Binary saved to /codebuild/output/src725577982/src/confere-web/node_modules/node-sass/vendor/linux-x64-72/binding.node
+2021-04-18T17:03:53.390Z [INFO]: Caching binary to /root/.npm/_cacache/node-sass/4.14.1/linux-x64-72_binding.node
+2021-04-18T17:03:53.410Z [INFO]: > node-sass@4.14.1 postinstall /codebuild/output/src725577982/src/confere-web/node_modules/node-sass
+                                 > node scripts/build.js
+2021-04-18T17:03:53.549Z [INFO]: Binary found at /codebuild/output/src725577982/src/confere-web/node_modules/node-sass/vendor/linux-x64-72/binding.node
+2021-04-18T17:03:53.549Z [INFO]: Testing binary
+2021-04-18T17:03:53.652Z [INFO]: Binary is fine
+2021-04-18T17:03:53.808Z [INFO]: > bufferutil@4.0.3 install /codebuild/output/src725577982/src/confere-web/node_modules/bufferutil
+                                 > node-gyp-build
+2021-04-18T17:03:54.042Z [INFO]: added 2014 packages in 29.615s
+2021-04-18T17:03:54.065Z [INFO]: # Executing command: export SENTRY_AUTH_TOKEN=2d924ed6be3e4d56ad79cb4af9a8da0ffa998476ed8644949029dad81e5eeac3
+2021-04-18T17:03:54.066Z [INFO]: # Executing command: export SENTRY_ORG=confere
+                                 # Executing command: export REACT_APP_COMMIT_ID=9fbad5a95369acd7063d98a838058bf7159f101d
+                                 # Completed phase: preBuild
+                                 # Starting phase: build
+                                 # Executing command: npm run build
+2021-04-18T17:03:54.230Z [INFO]: > confere-app@0.1.0 build /codebuild/output/src725577982/src/confere-web
+                                 > node scripts/build.js
+2021-04-18T17:03:55.135Z [INFO]: Setting NODE_PATH to resolve modules absolutely has been deprecated in favor of setting baseUrl in jsconfig.json (or tsconfig.json if you are using TypeScript) and will be removed in a future major release of create-react-app.
+2021-04-18T17:03:55.137Z [INFO]: Creating an optimized production build...
+2021-04-18T17:03:55.875Z [WARNING]: Browserslist: caniuse-lite is outdated. Please run the following command: `yarn upgrade`
+2021-04-18T17:06:21.758Z [INFO]: Compiled with warnings.
